@@ -1,0 +1,21 @@
+/**index.wxss**/
+.picture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.picture2 {
+  width:  320px;
+  height: 240px;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.label {
+  margin-top: 200px;
+}

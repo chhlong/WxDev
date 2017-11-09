@@ -1,0 +1,40 @@
+<!--index.wxml-->
+<view class="Title">
+  <view class="FirstName">
+    <text>{{FirstName}}</text>
+  </view>
+  <view class="SecondName">
+    <text>{{SecondName}}</text>
+  </view>
+  <view class="CompanyType">
+    <text>手游·Moba</text>
+  </view>
+</view>
+
+<view class = "CompanyLogo">
+    <image class = "Logo" mode="aspectFit" src="http://i2.bvimg.com/616656/1b15812da7c552db.jpg"> </image>
+</view>
+<view class="Line">
+  <text>-----------------------------------------------------</text>
+</view>
+
+<view class="Location">
+<button bindtap="openLocation">位置：广东省广州市天河区科韵路方圆E时光</button>
+</view>
+
+<view class="Time">
+<button>上班时间：09:00 - 18:30 </button>
+</view>
+
+<view class="Call">
+<button bindtap="callPhone">电话：13418004905</button>
+</view>
+
+<view class = "ShowImg">
+    <image class = "Image1" bindtap="imgYu" mode="aspectFit" src="http://i2.bvimg.com/616656/641f634f5efc2f21.jpg"> </image>
+    <image class = "Image2" bindtap="imgYu" mode="aspectFit" src="http://i2.bvimg.com/616656/f02b08507c72aaeb.png"> </image>
+</view>
+
+<view class="container">
+ 
+</view>

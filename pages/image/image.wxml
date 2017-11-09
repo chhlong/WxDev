@@ -1,0 +1,9 @@
+<!--image.wxml-->
+<view class="picture">
+  <view class="picture3">
+    <image bindtap="bindViewTap" class="picture2" src="https://p0.meituan.net/movie/5d4fa35c6d1215b5689257307c461dd2541448.jpeg" background-size="cover"></image>
+  </view>
+  <view class="label">
+    <text class="user-motto">图片</text>
+  </view>
+</view>
