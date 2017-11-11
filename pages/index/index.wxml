@@ -17,10 +17,19 @@
 </view>
 
 <view class="Info">
-<button class="buttonInfo" bindtap="callPhone">电话：13418004905</button>
-<button class="buttonInfo" bindtap="openLocation" >广东省广州市天河区科韵路方圆E时光大厦西座408</button>
-<button class="buttonInfo">上班时间：09:00 - 18:30 </button>
 
+<button class="buttonInfo" bindtap="openLocation" hover-class="other-button-hover">
+  <text class="fa fa-map-marker"></text>
+  <text >　广东省广州市天河区科韵路方圆E时光大厦西座408</text>
+</button>
+<button class="buttonInfo" >
+  <text class="fa fa-calendar-check-o"></text>
+  <text>　09:00 - 18:30</text>
+</button>
+<button class="buttonInfo" bindtap="callPhone" hover-class="other-button-hover">
+  <text class="fa fa-phone-square"></text>
+  <text>　13418004905</text>
+</button>
 </view>
 
 <view class = "ShowImg">

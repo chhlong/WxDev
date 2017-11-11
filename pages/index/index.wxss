@@ -44,9 +44,23 @@
   font-size: 16px;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
+  /* white-space: nowrap; */
   text-align: left;
 
+}
+
+.location{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+}
+
+.buttonInfo::after{
+    border:none;
+}
+
+.other-button-hover{
+    background-color: #808080;
 }
 
 .buttonInfo::after{
