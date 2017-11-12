@@ -48,6 +48,6 @@
  </view> 
 </scroll-view>  
 
+<text class="copyRight">版权所有 陈会龙 </text>
 <view class="container">
- 
 </view>
