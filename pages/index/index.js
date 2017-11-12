@@ -6,9 +6,30 @@ Page({
   data: {
     FirstName: "银汉科技",
     SecondName: "时空召唤大本营",
-    imagelist:[
-      "http://i2.bvimg.com/616656/641f634f5efc2f21.jpg",
-      "http://i2.bvimg.com/616656/f02b08507c72aaeb.png"
+    smallImglist:[
+      "http://i4.bvimg.com/616656/3c6543ac7c12099ft.jpg",
+      "http://i4.bvimg.com/616656/8704ac20a1ffe7d5t.jpg",
+      "http://i4.bvimg.com/616656/adb54a56f40310c9t.jpg",
+      "http://i4.bvimg.com/616656/6fb28a787bb3dfcbt.jpg",
+      "http://i4.bvimg.com/616656/94a13452657a0b46t.jpg",
+      "http://i4.bvimg.com/616656/56d98d60ac95bf6et.jpg",
+      "http://i4.bvimg.com/616656/9592592e1e3e3146t.jpg",
+      "http://i4.bvimg.com/616656/69f9857b31fd7d15t.jpg",
+      "http://i4.bvimg.com/616656/1f96d89c59680a70t.jpg",
+      "http://i4.bvimg.com/616656/b925b538eb8faf8bt.jpg",
+      "http://i4.bvimg.com/616656/9a7b1dded954bbb1t.jpg",
+    ],
+    largeImglist: [
+      "http://i4.bvimg.com/616656/3c6543ac7c12099fs.png",
+      "http://i4.bvimg.com/616656/8704ac20a1ffe7d5s.png",
+      "http://i4.bvimg.com/616656/adb54a56f40310c9s.jpg",
+      "http://i4.bvimg.com/616656/94a13452657a0b46s.jpg",
+      "http://i4.bvimg.com/616656/56d98d60ac95bf6es.jpg",
+      "http://i4.bvimg.com/616656/9592592e1e3e3146s.jpg",
+      "http://i4.bvimg.com/616656/69f9857b31fd7d15s.jpg",
+      "http://i4.bvimg.com/616656/1f96d89c59680a70s.jpg",
+      "http://i4.bvimg.com/616656/b925b538eb8faf8bs.png",
+      "http://i4.bvimg.com/616656/9a7b1dded954bbb1s.jpg",
     ],
   },
   //事件处理函数
@@ -83,9 +104,9 @@ Page({
     })
   },
 
-   imgYu: function (event) {
+   showImg: function (event) {
     var src = event.currentTarget.dataset.src;//获取data-src
-    var imgList = this.data.imagelist;//获取data-list
+    var imgList = this.data.largeImglist;//获取data-list
     //图片预览
     wx.previewImage({
       current: src, // 当前显示图片的http链接11

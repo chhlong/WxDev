@@ -3,20 +3,17 @@
   font-size: 18px;
   text-align: left;
   margin-left:20px;
+  font-weight:bold;
 }
 
 .CompanyType {
   font-size: 15px;
   text-align: left;
   color:#808080;
-  margin-top:5px;
+  margin-top:8px;
+  font-weight:normal;
 }
 
-.FirstName {
-  font-size: 18px;
-  text-align: left;
-  /**margin-left:20px;**/
-}
 
 .Logo{
   width: 120px;
@@ -67,19 +64,7 @@
     border:none;
 }
 
-
-.Image1{
-  width: 240px;
-  height: 240px;
-  position:absolute;
-  left:80px;
-  top:250px;
-}
-
-.Image2{
-  width: 240px;
-  height: 240px;
-  position:absolute;
-  left:80px;
-  top:400px;
-}
+.scrollView{ margin:4%; width: 92%;}
+.uploadWrap{ height:250rpx; width:100%; display: flex; display: -webkit-box; flex-direction: column;} 
+.upload_Item{ width: 250rpx; height: 250rpx; flex: 1;} 
+.upload_Item_img{ width: 240rpx; height: 240rpx;} 
